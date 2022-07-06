@@ -31,6 +31,7 @@ p {
     height: 500px;
     padding-top: 80px;
     margin-bottom: 7%;
+
 }
 
 .link-button {
@@ -90,9 +91,20 @@ p {
 .donate-item {
 
     border-radius: 10px;
-    margin-left: 5%;
+    margin-left: 3%;
+    margin-right: 3%;
     padding-top: 4%;
     padding-left: 2%;
+
+}
+
+.galary-item {
+    display: flex;
+    height: 200px;
+    width: 50%;
+    margin-left: 7%;
+    margin-bottom: 3px;
+
 }
 
 
@@ -114,4 +126,37 @@ p {
 
 #eduction {
     background-color: #ffffe6;
+}
+
+.contact-info {
+    padding-top: 7%;
+}
+
+.contact {
+    background-color: antiquewhite;
+    height: 200px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 7%;
+    text-align: center;
+}
+
+#email {
+    margin-top: 10%;
+    font-size: xx-large;
+}
+
+
+.footer-heading {
+    font-family: 'Lobster';
+    color: brown;
+    font-family: 'Lobster' !important;
+    font-size: 20px;
+    text-align: center;
+    background-color: black;
+    height: 150px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-family: 'Lobster', cursive !important;
+    margin-top: 7%;
 }
