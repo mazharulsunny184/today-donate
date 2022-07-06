@@ -21,7 +21,7 @@ p {
     text-align: center;
     padding-left: 25%;
     padding-right: 25%;
-    color: white;
+    color: #999999;
 }
 
 
@@ -79,4 +79,39 @@ p {
 
 .donate>p {
     color: black;
+}
+
+.donate-area {
+    display: flex;
+
+}
+
+
+.donate-item {
+
+    border-radius: 10px;
+    margin-left: 5%;
+    padding-top: 4%;
+    padding-left: 2%;
+}
+
+
+.position {
+    text-align: left;
+    padding: 2px;
+    margin-bottom: 7%;
+
+}
+
+#food {
+    background-color: #e6f2ff;
+
+}
+
+#shelter {
+    background-color: #ffe6ff;
+}
+
+#eduction {
+    background-color: #ffffe6;
 }
