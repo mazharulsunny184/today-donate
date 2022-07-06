@@ -11,6 +11,11 @@ h1 {
     color: white;
 }
 
+h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
 p {
     font-size: 20px;
     text-align: center;
@@ -25,6 +30,7 @@ p {
     background-size: cover;
     height: 500px;
     padding-top: 80px;
+    margin-bottom: 7%;
 }
 
 .link-button {
@@ -36,4 +42,41 @@ p {
     font-weight: 700;
     margin-left: 43%;
 
+
+}
+
+.donate {
+
+    margin-bottom: 7%;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.flex-container>div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 20px;
+    text-align: center;
+    line-height: 85px;
+    font-size: 30px;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 10px;
+    margin-bottom: 4%;
+
+}
+
+#donate-amount {
+    border: 2px solid tomato;
+    border-radius: 10px;
+    background-color: #f19f9f54;
+}
+
+.donate>p {
+    color: black;
 }
